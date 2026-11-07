@@ -1,0 +1,4 @@
+# dsh-zhipu-card bundle patch：挂载到 web profile
+- insert:
+    - id: zhipu-card
+      name: dsh-zhipu-card

@@ -1,0 +1,10 @@
+{
+  "name": "dsh-zhipu-card",
+  "version": "0.1.0",
+  "description": "智谱 GLM 额度卡：手填总量 − DSH 会话 token 自动累计已用（借鉴 dsh-whale-widget 记账方法），样式取自 dsh-quota-panel 胶囊+卡片。智谱按量计费无公开余额接口，本卡显示的是自设口径的剩余额度。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "license": "MIT"
+}
